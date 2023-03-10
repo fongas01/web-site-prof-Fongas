@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 100%;
+    border:none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+  }
+
+  
+
+  .btn-voltar:focus{
+    background-color: #0000ff;
+    color:#e4e4e4;
+  }
+  
+  
+ /* FOOTER */
+  /* usei o bg gradiente do btn-menu*/
+  .rodape{width:100%; float:left; text-align: center; padding: 3% 4%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
+  .social-icons a{font-size:1.5em; color:rgba(255,255,255,0.7); margin-right:3%;}
+    /* Tirando o margin-right  do último icone */
+  .social-icons a:last-child{margin-right: 0;}
+  .social-icons a:hover{color:rgb(255,255,255   );}
+  .copyright{margin-top: 2%; color:rgba(255,255,255,0.7);}
