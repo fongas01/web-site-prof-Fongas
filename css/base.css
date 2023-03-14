@@ -20,7 +20,7 @@
     padding:5px 10px; 
     border-radius: 20px; 
     float: right;
-    margin:10px 15px 10px;
+    margin:10px 25px 10px auto;
   }
   
   .btn-voltar:hover{
@@ -31,10 +31,18 @@
    
   
  /* FOOTER */
-  /* usei o bg gradiente do btn-menu*/
-  .rodape{width:100%; float:left; text-align: center; padding: 3% 4%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
+    /* usei o bg gradiente do btn-menu*/
+  .rodape{
+    width:100%; 
+    float:left; 
+    text-align: center; 
+    background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);
+  }
+ 
+  /*
   .social-icons a{font-size:1.5em; color:rgba(255,255,255,0.7); margin-right:3%;}
-    /* Tirando o margin-right  do último icone */
+    /* Tirando o margin-right  do último icone *
   .social-icons a:last-child{margin-right: 0;}
   .social-icons a:hover{color:rgb(255,255,255   );}
-  .copyright{margin-top: 2%; color:rgba(255,255,255,0.7);}
+  */
+  .copyright{margin-top: 2%; margin-bottom: 2%; color:rgba(255,255,255,0.7);}

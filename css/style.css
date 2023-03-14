@@ -61,14 +61,7 @@ img{max-width:100%;}
 .newsletter input{background-color:#130400; color: rgba(255,255,255,0.3);}
 .newsletter button{background-color: #fff; margin-top:2%; color:#020257; cursor:pointer;}
 
-/* FOOTER */
-  /* usarei o bg gradiente do btn-menu*/
-.rodape{width:100%;float:left; text-align: center;padding: 3% 4%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
-.social-icons a{font-size:1.5em; color:rgba(255,255,255,0.7); margin-right:3%;}
-  /* Tirando o margin-right  do último icone */
-.social-icons a:last-child{margin-right: 0;}
-.social-icons a:hover{color:rgb(255,255,255);}
-.copyright{margin-top: 2%; color:rgba(255,255,255,0.7);}
+
 
 /* MEDIA TYPES
 screen => para monitores ou dispositivos com tela colorida (adequa-se ao tamanho).
@@ -120,3 +113,4 @@ print => para dar uma versão de impressão do site.
   .menu li a:hover{border:none; color:#0000ff; text-decoration:underline;}
   .newsletter input, .newsletter button{font-size:1.3em; padding:15px;}
 }
+ 
