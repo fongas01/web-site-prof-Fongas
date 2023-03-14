@@ -23,11 +23,12 @@
     margin:10px 15px 10px;
   }
   
-  .btn-voltar:focus{
+  .btn-voltar:hover{
     background-color: #0000ff;
     color:#e4e4e4;
+
   }
-  
+   
   
  /* FOOTER */
   /* usei o bg gradiente do btn-menu*/
