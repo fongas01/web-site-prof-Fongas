@@ -16,8 +16,6 @@ img{max-width:100%;}
 
 .foto{width:400px; height:300px;}
 
-.foto{width:px; height:px;}
-
 /* CABEÇALHO */
 .cabecalho{width:100%;float:left; padding:3% 4%;}
 .logo{width:56px; height:56px;float: left;background:url(/img/logo.png) center center/56px no-repeat; font-size:0;}

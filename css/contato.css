@@ -13,7 +13,7 @@
 
 h1{color:#fff; font-size: 3em; text-align: center;}
 
-.container{margin: 10px; display: flex; width: 100vw;}
+.container{margin: 10px; display: flex; width: }
 
 .mapa{margin-right: .9rem;}
 
@@ -60,10 +60,6 @@ textarea:focus, input:focus {
   background-color: #0000ff;
   color:#e4e4e4;
 }
-
-
-
-
 
 /* FOOTER */
   /* usei o bg gradiente do btn-menu*/

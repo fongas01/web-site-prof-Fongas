@@ -7,10 +7,22 @@
     font-weight: 300;
     box-sizing: border-box;
     font-family: "Audiowide", sans-serif;
+    text-decoration: none;
   }
 
-  
+  .main{width:100%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
 
+  h1{color:#fff; font-size: 3em; text-align: center;}
+
+  .btn-voltar{
+    border:1px solid; 
+    color:#020257; 
+    padding:5px 10px; 
+    border-radius: 20px; 
+    float: right;
+    margin:10px 15px 10px;
+  }
+  
   .btn-voltar:focus{
     background-color: #0000ff;
     color:#e4e4e4;

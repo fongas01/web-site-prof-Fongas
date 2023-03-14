@@ -1,0 +1,33 @@
+.container .parag1{
+    margin: 20px 60px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(45, 147, 241);
+    display: flex; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fotos{
+    margin-top: 20px;   
+}
+
+.fotos p{
+    margin-bottom: 20px;  
+}
+
+.logoCenter{
+    margin-top: 5px;
+}
+
+.logoCenter img{
+    border-radius: 30px;
+}
+
+.parag2{
+    margin-top: 20px;
+    text-align: center;
+}
