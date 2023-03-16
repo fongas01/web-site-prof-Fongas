@@ -14,7 +14,7 @@ a{text-decoration: none;}
 ul{list-style: none;}
 img{max-width:100%;}
 
-.foto{width:400px; height:300px;}
+.foto{width:410px; height:300px;}
 
 /* CABEÇALHO */
 .cabecalho{width:100%;float:left; padding:3% 4%;}
@@ -45,11 +45,13 @@ img{max-width:100%;}
 /* SERVIÇOS */
 .servicos{width:100%; float:left; padding:2% 3%;}
 .servico{width:100%; background-color: #fff; text-align: left; border-radius: 7px; margin-bottom:3%}
-.servico img{border-radius:7px 7px 0 0;}
+.servico img{border-radius:7px 7px 0 0; }
+.servico p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 .inner{padding:7%;}
 .inner a{font-size:1.2em; color:#020257;font-weight:700;}
 .inner h4{font-size: 1em;color:#020257; margin-top:6%;margin-bottom:6%;}
-.inner p{font-size: 0.8em; color:#020257;line-height: 1.5em;}
+.inner p{font-size: 10em; color:#020257;line-height: 1.5em;}
+
 
 /* NEWSLETTER */
 .inner p{font-size: 0.8em; margin-top:2%; color:#020257;line-height: 1.5em;}
@@ -72,13 +74,14 @@ print => para dar uma versão de impressão do site.
 
 /* SMALL DEVICES - SMARTPHONE */
 @media screen and (min-width:480px){
-  .logo{width:160px; background:url(/img/fongas-novo.png) center center/160px no-repeat;}
   .botoes{font-size:2rem;}
 }
 
 /* SMALL DEVICES - TABLETS */
 @media screen and (min-width:768px){
+  .logo{width:160px; background:url(/img/fongas-novo.png) center center/160px no-repeat;}
   .servico{width:49%; float:left; margin-right:2%;}
+  .foto{margin:0; max-width: 100%;}
   /* Dividir a tela em 2 cards na horizontal */
   .servico:nth-child(2){margin-right: 0;}
   .inner a{font-size:2em;}
@@ -97,6 +100,7 @@ print => para dar uma versão de impressão do site.
   .title h2{font-size: 2em;}
   .botoes{width:30%; float:right; margin-top: 2%;}
   .btn-sobre{margin-top: 10px;}
+
   /* colocar 3 cards na horizontal */
   .servico{width:32%;}
   .servico:nth-child(2){margin-right: 2%;}
@@ -105,6 +109,7 @@ print => para dar uma versão de impressão do site.
 
 /*LARGE DEVICES - WIDE SCREENS */
 @media screen and (min-width:1200px){
+  
   .btn-menu{display:none;}
   .btn-close{display:none;}
   .menu{width:auto; height:56px; line-height:56px; float:right; background-color: #f5f5f5; display:block; position: static;}
