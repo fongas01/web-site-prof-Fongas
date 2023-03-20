@@ -73,3 +73,79 @@ spam{
 i{
     text-transform: uppercase;
 }
+
+
+/* 
+
+
+
+/* ========= MOBILE FIRST ========== */
+
+/* SMALL DEVICES - SMARTPHONE */
+@media screen and (min-width:460px){
+    .principal{display: none;}
+    .tasks{
+        margin-left:1.5rem;
+        margin-right: 1.5rem;
+        text-align: center;
+    }
+    .task img{width:300px; height:200px}
+    .task p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height:1.5rem; font-size: .9rem;
+    }
+}
+
+/* SMALL DEVICES - TABLETS *
+@media screen and (min-width:768px){
+/*.principal{display: flex;}
+nav{display:flex;}*
+.tasks{
+    margin-left:1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+}
+.task img{width:300px; height:200px}
+.task p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:2rem; font-size: 1rem;
+    }
+
+/* Dividir a tela em 2 cards na horizontal *
+    .tasks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1.5rem;
+    }
+    #plataformas{margin-top:-1.5rem;}
+}
+  
+
+/*LARGE DEVICES - WIDE SCREENS *
+@media screen and (min-width:1200px){
+    .principal{display: flex;}
+    .tasks{
+        margin-left:1.5rem;
+        margin-right: 1.5rem;
+        text-align: center;
+    }
+    .task img{width:300px; height:200px}
+    .task p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height:1.5rem; font-size: .9rem;
+    }
+
+    .tasks{
+        margin-left:1.5rem;
+        margin-right: 1.5rem;
+        text-align: center;
+    }
+    .task img{width:600px; height:300px}
+    .task p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height:2rem; font-size: 1.05rem;
+        }
+       
+}
+
+*/

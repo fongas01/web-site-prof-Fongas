@@ -46,3 +46,19 @@
   .social-icons a:hover{color:rgb(255,255,255   );}
   */
   .copyright{margin-top: 2%; margin-bottom: 2%; color:rgba(255,255,255,0.7);}
+
+
+  /* SMALL DEVICES - SMARTPHONE */
+@media screen and (min-width:460px){
+  .rodape .copyright{font-size:.7rem; margin:1.5rem auto;}
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width:768px){
+  .rodape .copyright{font-size:.85rem; margin:1.5rem auto;}
+}
+
+/*LARGE DEVICES - WIDE SCREENS */
+@media screen and (min-width:1200px){
+  .rodape .copyright{font-size:1rem; margin:1.5rem auto;}
+}
