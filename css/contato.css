@@ -65,46 +65,50 @@ textarea{height: 9rem;}
 
 /* SMALL DEVICES - SMARTPHONE */
 @media screen and (min-width:460px){
+.container{display:inline-block; margin:1em;}
+.mapa, .formulario{max-width:415px; margin-bottom:1em}
+.container{margin-bottom: 28rem;}
+.input-field input, #message{width:380px;}
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width:768px){
+.mapa, .formulario{max-width:470px; margin: 8px; height:28.5rem;}
+.container{margin-bottom: 3.6rem;}
+.input-field input, #message{width:430px;}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  }
+.copyright{font-size:1.5em; margin:2.5em auto;}
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS 
+@media screen and (min-width:960px){
 .container{display:inline-block; margin:5px;}
 .mapa, .formulario{
   width:425px;
   margin-left: 5px;
   margin-top: 5px;
   }
-
 .container{margin-bottom: 28rem;}
 .input-field input, #message{width:390px;}
-  /*.btn-voltar{float: left;}*/
 }
+*/
 
-/* SMALL DEVICES - TABLETS 
-@media screen and (min-width:768px){
-  .servico{width:49%; float:left; margin-right:2%;}
-  /* Dividir a tela em 2 cards na horizontal 
-  .servico:nth-child(2){margin-right: 0;}
-  .inner a{font-size:2em;}
-  .inner h4{font-size: 1.5em;}
-  .newsletter h2{font-size:2em;}
-  .newsletter h3{font-size:1.5em;}
-  /* Input à esquerda c/ 70%, botão à direita c/ 29% + 1% (do input) => somatorio doas % = 100*/
-}
 
-/* MEDIUM DEVICES - TABLETS & DESKTOPS 
-@media screen and (min-width:960px){
-  .title{width:70%; float:left; text-align: left;}
-  .title h1{font-size: 3em;}
-  .title h2{font-size: 2em;}
-  .botoes{width:30%; float:right; margin-top: 2%;}
-  .btn-sobre{margin-top: 10px;}
-
-  /* colocar 2 cards na horizontal 
-  .container{width:62%;}
-  .iframe:nth-child(1){margin-right: 2%;}
-  .formulario:nth-child(2){margin-right: 0;}
-}
-
-/*LARGE DEVICES - WIDE SCREENS *
+/*LARGE DEVICES - WIDE SCREENS */
 @media screen and (min-width:1200px){
-  display:flex;
+.mapa, .formulario{max-width:620px; height:26.8em;}
+.container{margin-bottom: 2em;}
+.input-field input, #message{width:580px; margin-top:1em;}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  }
+  
+.copyright{font-size:2em; margin:1.5em auto;}
 }
  

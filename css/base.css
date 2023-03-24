@@ -1,54 +1,54 @@
 *{
-    margin:0;
-    padding:0;
-    font-size: 100%;
-    border:none;
-    outline: none;
-    font-weight: 300;
-    box-sizing: border-box;
-    font-family: "Audiowide", sans-serif;
-    text-decoration: none;
-  }
+  margin:0;
+  padding:0;
+  font-size: 100%;
+  border:none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: "Audiowide", sans-serif;
+  text-decoration: none;
+}
 
-  .main{width:100%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
+.main{width:100%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
 
-  h1{color:#fff; font-size: 3em; text-align: center;}
+h1{color:#fff; font-size: 3em; text-align: center;}
 
-  .btn-voltar{
-    border:1px solid; 
-    color:#020257; 
-    padding:5px 10px; 
-    border-radius: 20px; 
-    float: right;
-    margin:10px 25px 10px auto;
-  }
+.btn-voltar{
+  border:1px solid; 
+  color:#020257; 
+  padding:5px 10px; 
+  border-radius: 20px; 
+  float: right;
+  margin:10px 25px 10px auto;
+}
   
-  .btn-voltar:hover{
-    background-color: #0000ff;
-    color:#e4e4e4;
-
-  }
+.btn-voltar:hover{
+  background-color: #0000ff;
+  color:#e4e4e4;
+}
    
   
- /* FOOTER */
-    /* usei o bg gradiente do btn-menu*/
-  .rodape{
-    width:100%; 
-    float:left; 
-    text-align: center; 
-    background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);
-  }
- 
-  /*
-  .social-icons a{font-size:1.5em; color:rgba(255,255,255,0.7); margin-right:3%;}
-    /* Tirando o margin-right  do último icone *
-  .social-icons a:last-child{margin-right: 0;}
-  .social-icons a:hover{color:rgb(255,255,255   );}
-  */
-  .copyright{margin-top: 2%; margin-bottom: 2%; color:rgba(255,255,255,0.7);}
+/* FOOTER */
+/* usei o bg gradiente do btn-menu*/
+.rodape{
+  width:100%; 
+  float:left; 
+  text-align: center; 
+  background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);
+}
+
+/*
+.social-icons a{font-size:1.5em; color:rgba(255,255,255,0.7); margin-right:3%;}
+  /* Tirando o margin-right  do último icone *
+.social-icons a:last-child{margin-right: 0;}
+.social-icons a:hover{color:rgb(255,255,255   );}
+*/
+
+.copyright{margin-top: 2%; margin-bottom: 2%; color:rgba(255,255,255,0.7);}
 
 
-  /* SMALL DEVICES - SMARTPHONE */
+/* SMALL DEVICES - SMARTPHONE */
 @media screen and (min-width:460px){
   .rodape .copyright{font-size:.7rem; margin:1.5rem auto;}
 }

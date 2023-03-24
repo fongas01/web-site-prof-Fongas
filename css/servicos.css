@@ -82,14 +82,14 @@ i{
 @media screen and (min-width:460px){
     .principal{display: none;}
     .tasks{
-        margin-left:1.5rem;
-        margin-right: 1.5rem;
+        margin-left:1.5em;
+        margin-right: 1.5em;
         text-align: center;
     }
     .task img{width:300px; height:200px}
     .task p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        line-height:1.5rem; font-size: .9rem;
+        line-height:1.5em; font-size: .9em;
     }
 }
 
@@ -106,9 +106,9 @@ i{
 .tasks{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:1.5rem;
+        gap:1.5em;
     }
-    #plataformas{margin-top:-1.5rem;}
+    #plataformas{margin-top:-1.5em;}
 }
   
 
@@ -117,8 +117,8 @@ i{
     .principal{display: inline;}
     .tasks{
         display: inline;
-        margin-left:30rem;
-        margin-right: 1.5rem;
+        margin-left:30em;
+        margin-right: 1.5em;
         text-align: right;  
 
     }
@@ -126,8 +126,8 @@ i{
     .task img{width:600px; height:300px;}
     .task p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        line-height:2rem; font-size: 1.05rem;
+        line-height:2em; font-size: 1.05em;
     }   
-    #plataformas{margin-top: 1.5rem;} 
+    #plataformas{margin-top: 1.5em;} 
     #marketing{border-radius:0;}
 }
