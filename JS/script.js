@@ -1,7 +1,7 @@
 $(".btn-menu").click(function(){
-    $(".menu").show();
-  })
+  $(".menu").show();
+})
 
-  $(".btn-close").click(function(){
-    $(".menu").hide();
-  })
+$(".btn-close").click(function(){
+  $(".menu").hide();
+})
