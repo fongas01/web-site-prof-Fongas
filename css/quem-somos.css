@@ -1,7 +1,8 @@
 .container, .parag1, .parag2{
     margin: 20px 60px;
     font-size: 1.1em;
-    text-align: center;
+    text-align: justify;
+    text-indent: 60px;
 }
 
 .card{
