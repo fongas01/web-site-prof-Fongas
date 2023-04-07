@@ -1,8 +1,8 @@
 .container, .parag1, .parag2{
     margin: 20px 60px;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: justify;
-    text-indent: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 .card{
@@ -33,12 +33,12 @@
 
 /* SMALL DEVICES - SMARTPHONE */
 @media screen and (min-width:450px){
-.container .parag1{
-    margin-left:.5em; 
-    margin-right: .5em; 
+.container .parag1, .parag2{
+    margin-left:1em; 
+    margin-right: 1em; 
     text-align: justify; 
 }
-    
+
 .card{
     display: inline-block;
 }

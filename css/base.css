@@ -10,11 +10,6 @@
   text-decoration: none;
 }
 
-p{
-  text-align: justify;
-  /*text-indent: 30px;* - Espaço a direita do parágrafo*/
-}
-
 .main{width:100%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
 
 h1{color:#fff; font-size: 3em; text-align: center;}
